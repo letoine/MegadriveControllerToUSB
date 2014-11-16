@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "4 aug 2014"
+Date "16 nov 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -322,11 +322,11 @@ $EndComp
 Text GLabel 8700 1800 0    60   Input ~ 0
 SELECT_CLK
 Text GLabel 8700 1400 0    60   Input ~ 0
-B_A_BUTTON
+DATA5_PIN
 Text GLabel 9450 1500 0    60   Input ~ 0
-RIGHT_MODE
+DATA3_PIN
 Text GLabel 9450 1900 0    60   Input ~ 0
-DOWN_Y
+DATA1_PIN
 $Comp
 L VCC #PWR010
 U 1 1 53DC1FB2
@@ -343,11 +343,11 @@ Wire Wire Line
 Wire Wire Line
 	9600 1300 9700 1300
 Text GLabel 8700 2000 0    60   Input ~ 0
-C_START_BUTTON
+DATA4_PIN
 Text GLabel 9450 1700 0    60   Input ~ 0
-LEFT_X
+DATA2_PIN
 Text GLabel 9450 2100 0    60   Input ~ 0
-UP_Z
+DATA0_PIN
 Text GLabel 4250 4800 0    60   Input ~ 0
 RESET
 Wire Wire Line
@@ -475,19 +475,19 @@ Wire Wire Line
 Wire Wire Line
 	9450 2100 9700 2100
 Text GLabel 7000 4800 2    60   Input ~ 0
-B_A_BUTTON
+DATA5_PIN
 Text GLabel 7700 4900 2    60   Input ~ 0
-RIGHT_MODE
+DATA3_PIN
 Text GLabel 7000 5000 2    60   Input ~ 0
-LEFT_X
+DATA2_PIN
 Text GLabel 7700 5100 2    60   Input ~ 0
 SELECT_CLK
 Text GLabel 7000 5200 2    60   Input ~ 0
-DOWN_Y
+DATA1_PIN
 Text GLabel 7700 5300 2    60   Input ~ 0
-C_START_BUTTON
+DATA4_PIN
 Text GLabel 7000 5400 2    60   Input ~ 0
-UP_Z
+DATA0_PIN
 Wire Wire Line
 	6700 4800 7000 4800
 Wire Wire Line
